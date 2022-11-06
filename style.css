@@ -92,3 +92,16 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 66px;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
